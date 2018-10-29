@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,9 +16,17 @@
             let day ="";
 
         if (chosenDay>=1  && chosenDay<=days.length){
-            day = days[chosenDay-1];
-            return day;//name of day
+        day = days[chosenDay-1];
+          }  return day;//name of day
         }
+
+        console.log(dayOfTheWeek(1)); // Resultaat: "Monday"
+        console.log(dayOfTheWeek(2)); //"Tuesday"
+        console.log(dayOfTheWeek(3)); // Resultaat: "Wednesday"
+        console.log(dayOfTheWeek(4)); 
+        console.log(dayOfTheWeek(5)); 
+        console.log(dayOfTheWeek(6)); 
+        console.log(dayOfTheWeek(8)); // Resultaat: ""
 
 </script>
 
